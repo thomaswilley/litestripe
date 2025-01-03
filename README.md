@@ -31,7 +31,7 @@ need minimal Stripe subscription data in your app, Litestripe keeps it lean and
 straightforward.
 
 ### Summary
-1. Install with pip install git+https://github.com/<your-username>/litestripe.git.
+1. Install with pip install git+https://github.com/thomaswilley/litestripe.git.
 2. Add 'litestripe.apps.LitestripeConfig' to INSTALLED_APPS.
 3. Set up your environment variables (STRIPE_PUBLIC_KEY, STRIPE_SECRET_KEY, STRIPE_WEBHOOK_UUID, etc.).
 4. Run migrations to create the Litestripe models.
@@ -43,7 +43,7 @@ straightforward.
 ## Get Started
 
 ```bash
-pip install git+https://github.com/<your-username>/litestripe.git
+pip install git+https://github.com/thomaswilley/litestripe.git
 ```
 
 In your Django project's settings.py, add:
